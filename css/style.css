@@ -124,7 +124,7 @@ header.hide {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 4px;
     margin-top: 25px;
 }
 
@@ -567,8 +567,8 @@ header.hide {
     }
 
     .btn-hero{
-        padding:11px 26px;
-        font-size:14px;
+        padding:9px 22px;
+        font-size:13px;
         margin-top: 24px;
     }
 
@@ -697,18 +697,19 @@ header.hide {
     }
 
     .contact-item {
-        font-size: 13px;
-        gap: 8px;
+        font-size: 15px;
+        gap: 10px;
+        padding: 10px 0;         /* área de toque más grande */
     }
 
     .contact-item span {
-        font-size: 13px;
+        font-size: 15px;
         word-break: break-word;
     }
 
     .contact-icon {
-        width: 20px;
-        height: 20px;
+        width: 26px;
+        height: 26px;
     }
 }
 
