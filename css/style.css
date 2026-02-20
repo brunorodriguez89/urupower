@@ -45,7 +45,7 @@ header.hide {
     display:flex;
     align-items:center;
     justify-content:space-between;
-    height: 90px;
+    height: 115px;
 }
 
 .logo-container img{
@@ -91,7 +91,7 @@ header.hide {
 
 .hero{
     position:relative;
-    height:100vh;
+    height:150vh;
     background:url('../assets/hero.png') center/cover no-repeat;
     display:flex;
     justify-content:center;
@@ -141,10 +141,11 @@ header.hide {
 }
 
 .hero-tagline{
-    font-size:26px;
+    font-size:40px;
     color:#FFC400;
     font-weight:500;
     margin-top: 0;
+    font-weight: bold;
 }
 
 .btn-hero{
@@ -157,6 +158,7 @@ header.hide {
     font-weight:600;
     border-radius:50px;
     transition:0.3s ease;
+    border:2px solid black;
 }
 
 .btn-hero:hover{
